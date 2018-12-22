@@ -15,6 +15,7 @@
 		66EB1EFF21CE87DC0028F77E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EB1EFE21CE87DC0028F77E /* main.m */; };
 		66EB1F0921CE87DC0028F77E /* meituanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EB1F0821CE87DC0028F77E /* meituanTests.m */; };
 		66EB1F1421CE87DC0028F77E /* meituanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EB1F1321CE87DC0028F77E /* meituanUITests.m */; };
+		66EB1F2321CE88C10028F77E /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EB1F2221CE88C10028F77E /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		66EB1F0F21CE87DC0028F77E /* meituanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meituanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66EB1F1321CE87DC0028F77E /* meituanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meituanUITests.m; sourceTree = "<group>"; };
 		66EB1F1521CE87DC0028F77E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66EB1F2121CE88C10028F77E /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		66EB1F2221CE88C10028F77E /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				66EB1EEF21CE87DA0028F77E /* AppDelegate.h */,
 				66EB1EF021CE87DA0028F77E /* AppDelegate.m */,
+				66EB1F2121CE88C10028F77E /* Dog.h */,
+				66EB1F2221CE88C10028F77E /* Dog.m */,
 				66EB1EF221CE87DA0028F77E /* ViewController.h */,
 				66EB1EF321CE87DA0028F77E /* ViewController.m */,
 				66EB1EF521CE87DA0028F77E /* Main.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				66EB1EF421CE87DA0028F77E /* ViewController.m in Sources */,
 				66EB1EFF21CE87DC0028F77E /* main.m in Sources */,
+				66EB1F2321CE88C10028F77E /* Dog.m in Sources */,
 				66EB1EF121CE87DA0028F77E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
